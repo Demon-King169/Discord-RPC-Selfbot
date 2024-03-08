@@ -2,22 +2,22 @@
 
 module.exports = {
     // spotify/game/twitch
-    "mode": "", 
+    "mode": "game", 
     // dnd/online/idle
-    "status": "",
+    "status": "online",
 
     "game": {
-        "applicationID": "",
+        "applicationID": "1214827514481090570",
 
-        "name": "", // title
-        "details": "", // first row below title
-        "state": "", // row below first row
+        "name": "DemonKing", // title
+        "details": "Working ON", // first row below title
+        "state": "Demon-Tools", // row below first row
 
-        "largeImageKey": "", // Large Image
-        "largeImageText": "", // the text when img surrounded (default is largeimage name in dev portal)
+        "largeImageKey": "https://cdn.discordapp.com/attachments/1213522858077196348/1214802072705171456/Gemini_Generated_Image_8.jpg?ex=65fa6f98&is=65", // Large Image
+        "largeImageText": "DemonKing", // the text when img surrounded (default is largeimage name in dev portal)
 
-        "smallImageKey": "", // Small Image
-        "smallImageText": "",
+        "smallImageKey": "https://cdn.discordapp.com/attachments/1213522858077196348/1214802661782589550/Gemini_Generated_Image_2.jpg?ex=65fa7024&is=65e", // Small Image
+        "smallImageText": "FD Ai",
         
         // Date.now() Epoch timestamps
         "startTimestamp": "", // time elapsed since this timestamp (increase ++)
