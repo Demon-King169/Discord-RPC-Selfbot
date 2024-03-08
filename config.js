@@ -13,10 +13,10 @@ module.exports = {
         "details": "Working ON", // first row below title
         "state": "Demon-Tools", // row below first row
 
-        "largeImageKey": "https://cdn.discordapp.com/attachments/1213522858077196348/1214802072705171456/Gemini_Generated_Image_8.jpg?ex=65fa6f98&is=65", // Large Image
+        "largeImageKey": "demon", // Large Image
         "largeImageText": "DemonKing", // the text when img surrounded (default is largeimage name in dev portal)
 
-        "smallImageKey": "https://cdn.discordapp.com/attachments/1213522858077196348/1214802661782589550/Gemini_Generated_Image_2.jpg?ex=65fa7024&is=65e", // Small Image
+        "smallImageKey": "fd", // Small Image
         "smallImageText": "FD Ai",
         
         // Date.now() Epoch timestamps
