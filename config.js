@@ -2,7 +2,7 @@
 
 module.exports = {
     // spotify/game/twitch
-    "mode": "game", 
+    "mode": "twitch", 
     // dnd/online/idle
     "status": "online",
 
@@ -24,17 +24,17 @@ module.exports = {
         "endTimestamp": "" // time left since this timestamp (decrease --)
     },
     "twitch": {
-        "applicationID": "",
-        "url": "", // twitch channel link
+        "applicationID": "1214827514481090570",
+        "url": "https://twitch.tv/discord", // twitch channel link
 
-        "details": "", // title
-        "state": "", // first row below title (playing ...)
+        "details": "ShadowStriker", // title
+        "state": "myprofile.darkdemon.tech", // first row below title (playing ...)
 
-        "largeImageKey": "", // in dev portal, upload img then name it with the name you want to appear with image is surrounded
-        "largeImageText": "", // use this to replace text when img surrounded it will also be second row below title, if you dont want the row dont use it and setup text via dev portal (img name)
+        "largeImageKey": "ss", // in dev portal, upload img then name it with the name you want to appear with image is surrounded
+        "largeImageText": "ShadowStriker", // use this to replace text when img surrounded it will also be second row below title, if you dont want the row dont use it and setup text via dev portal (img name)
         
-        "smallImageKey": "",
-        "smallImageText": "",
+        "smallImageKey": "fd",
+        "smallImageText": "FD Ai",
 
         "startTimestamp": "",
         "endTimestamp": ""
